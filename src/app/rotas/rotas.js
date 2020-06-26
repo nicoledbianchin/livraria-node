@@ -1,5 +1,3 @@
-const app = require("../../config/custom-express");
-
 module.exports = (app) => {
 
     app.get('/', function(req, resp) {
