@@ -1,4 +1,6 @@
 const express = require('express');
+require('marko/node-require').install();
+require('marko/express');
 
 const app = express();
 
